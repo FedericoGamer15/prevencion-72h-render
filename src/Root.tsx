@@ -5,9 +5,9 @@ import { MainSequence } from "./MainSequence";
 export const Root: React.FC = () => {
   return (
     <Composition
-      id="Prevencion72h"
+      id="CienciaVsMagia"
       component={MainSequence}
-      durationInFrames={10800}
+      durationInFrames={3600}
       fps={60}
       width={1080}
       height={1920}

@@ -1,11 +1,21 @@
 import React from "react";
 import { useCurrentFrame } from "remotion";
 import { World2D } from "./components/World2D";
-import { TechnicalBadge } from "./components/TechnicalBadge";
 import { AnimatedCaptions } from "./components/AnimatedCaptions";
 import { Soundtrack } from "./audio/Soundtrack";
 
-export const SCENE_DURATIONS = [870, 1470, 1560, 1500, 1800, 1500, 1200, 900];
+// 9 escenas sincronizadas a 60 fps (Total 3600 frames = 60.00 segundos)
+export const SCENE_DURATIONS = [
+  250, // s0: El Choque Conceptual (El Ojo y PV=nRT)
+  225, // s1: El Despertar Isekai (Espejo y Chispa)
+  424, // s2: La Ineficiencia del Cántico (Ignis Magna)
+  494, // s3: El Diagnóstico del Ingeniero (Blueprint)
+  612, // s4: Termodinámica y Compresión Adiabática (Plasma Azul)
+  592, // s5: Del Hechizo al Cañón de Riel (Railgun)
+  332, // s6: Detonación Termobárica
+  348, // s7: Leyes del Cosmos (Mandala Periódico)
+  323, // s8: Loop & Call to Action (Chasquido)
+];
 
 export const SCENE_OFFSETS = SCENE_DURATIONS.reduce(
   (acc, dur, i) => {
@@ -14,6 +24,18 @@ export const SCENE_OFFSETS = SCENE_DURATIONS.reduce(
   },
   [0]
 );
+
+const SCENE_HIGHLIGHTS: Record<string, string[]> = {
+  s0: ["ingeniero", "destruiría", "semana", "mágico"],
+  s1: ["noble", "exiliado", "poco", "maná"],
+  s2: ["fuego", "lenta", "dispersa", "versos"],
+  s3: ["misterio", "ingeniero", "combustión", "noventa"],
+  s4: ["termodinámica", "oxígeno", "microscópica", "plasma"],
+  s5: ["electromagnetismo", "moneda", "cañón", "riel", "hipersónico"],
+  s6: ["electrólisis", "ignición", "termobárica", "maná"],
+  s7: ["fe", "ciencia", "leyes", "cosmos"],
+  s8: ["conocimiento", "código", "trucos", "principio", "físico"],
+};
 
 export const MainSequence: React.FC = () => {
   const frame = useCurrentFrame();
@@ -28,6 +50,7 @@ export const MainSequence: React.FC = () => {
   }
 
   const activeLocalFrame = frame - SCENE_OFFSETS[activeScene];
+  const activeSceneKey = `s${activeScene}`;
 
   return (
     <div
@@ -36,104 +59,21 @@ export const MainSequence: React.FC = () => {
         width: 1080,
         height: 1920,
         overflow: "hidden",
-        backgroundColor: "#0B132B",
+        backgroundColor: "#0B0E14",
       }}
     >
-      {/* 1. Capa Visual Vectorial 2D */}
+      {/* 1. Capa Visual Vectorial 2D (Sakuga Full Fluid & Multiplane) */}
       <World2D currentScene={activeScene} sceneLocalFrame={activeLocalFrame} />
 
-      {/* 2. Insignias Técnicas Superiores (Badges) */}
-      {/* Escena 1 */}
-      {activeScene === 0 && (
-        <>
-          <TechnicalBadge text="ALERTA VS. REALIDAD" variant="warning" appearAt={20} disappearAt={220} />
-          <TechnicalBadge text="PROTOCOLOS GUBERNAMENTALES" variant="info" appearAt={220} disappearAt={520} />
-          <TechnicalBadge text="RESILIENCIA SISTÉMICA" variant="positive" appearAt={540} disappearAt={840} />
-        </>
-      )}
-
-      {/* Escena 2 */}
-      {activeScene === 1 && (
-        <>
-          <TechnicalBadge text="ESTRECHO DE ORMUZ" variant="warning" appearAt={30} disappearAt={440} />
-          <TechnicalBadge text="20% PETRÓLEO MUNDIAL" variant="info" appearAt={450} disappearAt={940} />
-          <TechnicalBadge text="COMPRAS DE PÁNICO (48H)" variant="negative" appearAt={960} disappearAt={1420} />
-        </>
-      )}
-
-      {/* Escena 3 */}
-      {activeScene === 2 && (
-        <>
-          <TechnicalBadge text="GUERRA HÍBRIDA" variant="negative" appearAt={30} disappearAt={400} />
-          <TechnicalBadge text="APAGÓN ELÉCTRICO Y DE DATOS" variant="negative" appearAt={420} disappearAt={900} />
-          <TechnicalBadge text="COLAPSO DE BANCA Y AGUA" variant="warning" appearAt={920} disappearAt={1500} />
-        </>
-      )}
-
-      {/* Escena 4 */}
-      {activeScene === 3 && (
-        <>
-          <TechnicalBadge text="LA REGLA DE LAS 72 HORAS" variant="info" appearAt={20} disappearAt={380} />
-          <TechnicalBadge text="VENTANA DE REORGANIZACIÓN" variant="info" appearAt={400} disappearAt={920} />
-          <TechnicalBadge text="DESATURACIÓN DE EMERGENCIAS" variant="positive" appearAt={940} disappearAt={1440} />
-        </>
-      )}
-
-      {/* Escena 5 */}
-      {activeScene === 4 && (
-        <>
-          <TechnicalBadge text="DEFENSA TOTAL NÓRDICA" variant="info" appearAt={30} disappearAt={420} />
-          <TechnicalBadge text="ESTÁNDAR UNIÓN EUROPEA" variant="info" appearAt={440} disappearAt={640} />
-          <TechnicalBadge text="SISMOS Y CLIMA (MX • JP • CL)" variant="warning" appearAt={660} disappearAt={1250} />
-          <TechnicalBadge text="RESILIENCIA UNIVERSAL" variant="positive" appearAt={1280} disappearAt={1740} />
-        </>
-      )}
-
-      {/* Escena 6 */}
-      {activeScene === 5 && (
-        <>
-          <TechnicalBadge text="INVENTARIO DE SUPERVIVENCIA" variant="info" appearAt={20} disappearAt={220} />
-          <TechnicalBadge text="1. AGUA: 2-3L / DÍA (9L TOTAL)" variant="positive" appearAt={240} disappearAt={620} />
-          <TechnicalBadge text="2. COMIDA SIN COCCIÓN" variant="positive" appearAt={640} disappearAt={1020} />
-          <TechnicalBadge text="3. LINTERNA + RADIO AM/FM" variant="positive" appearAt={1040} disappearAt={1460} />
-        </>
-      )}
-
-      {/* Escena 7 */}
-      {activeScene === 6 && (
-        <>
-          <TechnicalBadge text="4. BOTIQUÍN Y MEDICACIÓN" variant="positive" appearAt={20} disappearAt={360} />
-          <TechnicalBadge text="5. EFECTIVO EN BILLETES PEQUEÑOS" variant="positive" appearAt={380} disappearAt={720} />
-          <TechnicalBadge text="DOCUMENTACIÓN HERMÉTICA" variant="positive" appearAt={740} disappearAt={1160} />
-        </>
-      )}
-
-      {/* Escena 8 */}
-      {activeScene === 7 && (
-        <>
-          <TechnicalBadge text="PREPARACIÓN = RESPONSABILIDAD" variant="positive" appearAt={20} disappearAt={400} />
-          <TechnicalBadge text="AUTONOMÍA CIUDADANA" variant="positive" appearAt={420} disappearAt={820} />
-        </>
-      )}
-
-      {/* 3. Subtítulos Dinámicos Palabra por Palabra */}
+      {/* 2. Subtítulos Dinámicos (Captions palabra por palabra con Kinetic Highlight) */}
       <AnimatedCaptions
-        sceneKey={(`s${activeScene + 1}`) as any}
+        sceneKey={activeSceneKey}
         sceneStartFrame={SCENE_OFFSETS[activeScene]}
-        highlights={[
-          "GUERRA", "GOBIERNOS", "MOCHILA DE EMERGENCIA", "FIN DEL MUNDO", "CIENTÍFICA",
-          "ESTRECHO DE ORMUZ", "QUINTA PARTE", "PETRÓLEO", "FERTILIZANTES", "PÁNICO", "CUARENTA Y OCHO HORAS",
-          "CABLES SUBTERRÁNEOS", "CIBERATAQUES", "SUBESTACIONES", "ELECTRICIDAD", "AGUA POTABLE", "SETENTA Y DOS HORAS",
-          "TRES DÍAS", "TIEMPO LOGÍSTICO", "PROTECCIÓN CIVIL", "AUTOSUFICIENTE", "HOSPITALES",
-          "SUECIA", "FINLANDIA", "NORUEGA", "DEFENSA TOTAL", "MÉXICO", "JAPÓN", "CHILE", "RESILIENCIA",
-          "AGUA POTABLE", "DOS A TRES LITROS", "NUEVE LITROS", "COMIDA NO PERECEDERA", "LINTERNA", "RADIO",
-          "BOTIQUÍN", "MEDICACIÓN", "EFECTIVO", "BILLETES PEQUEÑOS", "DOCUMENTOS",
-          "MIEDO", "CIUDADANÍA", "DESPENSA", "CRISIS GLOBAL"
-        ]}
+        highlights={SCENE_HIGHLIGHTS[activeSceneKey] || []}
       />
 
-      {/* 4. Banda Sonora y Locución */}
-      <Soundtrack sceneOffsets={SCENE_OFFSETS} />
+      {/* 3. Audio Maestro (Música con Ducking + Locución Fish Audio Sincronizada) */}
+      <Soundtrack sceneOffsets={SCENE_OFFSETS.slice(0, 9)} />
     </div>
   );
 };

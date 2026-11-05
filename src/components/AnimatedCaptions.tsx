@@ -4,7 +4,7 @@ import { THEME } from "../theme";
 import voData from "../data/vo.json";
 
 interface CaptionsProps {
-  sceneKey: "s1" | "s2" | "s3" | "s4" | "s5" | "s6" | "s7" | "s8";
+  sceneKey: "s0" | "s1" | "s2" | "s3" | "s4" | "s5" | "s6" | "s7" | "s8" | string;
   sceneStartFrame: number;
   highlights?: string[];
 }
