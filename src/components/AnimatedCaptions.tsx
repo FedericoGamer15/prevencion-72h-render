@@ -4,7 +4,7 @@ import { THEME } from "../theme";
 import voData from "../data/vo.json";
 
 interface CaptionsProps {
-  sceneKey: "s0" | "s1" | "s2" | "s3" | "s4" | "s5" | "s6" | "s7" | "s8" | string;
+  sceneKey: string;
   sceneStartFrame: number;
   highlights?: string[];
 }
@@ -25,7 +25,7 @@ export const AnimatedCaptions: React.FC<CaptionsProps> = ({
   // Tiempo local en segundos desde el inicio de la escena
   const localTime = Math.max(0, (frame - sceneStartFrame) / fps);
 
-  // Encontrar el índice de la palabra actual
+  // Encontrar el índice de la palabra activa
   let activeWordIndex = -1;
   for (let i = 0; i < sceneVO.words.length; i++) {
     const w = sceneVO.words[i];
@@ -43,7 +43,7 @@ export const AnimatedCaptions: React.FC<CaptionsProps> = ({
     activeWordIndex = sceneVO.words.length - 1;
   }
 
-  // Agrupar palabras en frases cortas de 3 a 5 palabras para formato vertical Shorts/TikTok
+  // Agrupar palabras en frases cortas de 3 a 4 palabras para formato vertical Shorts/TikTok
   const chunkSize = 4;
   const chunkIndex = Math.floor(Math.max(0, activeWordIndex) / chunkSize);
   const startIdx = chunkIndex * chunkSize;
@@ -76,12 +76,13 @@ export const AnimatedCaptions: React.FC<CaptionsProps> = ({
           flexWrap: "wrap",
           justifyContent: "center",
           gap: "8px 14px",
-          maxWidth: 900,
-          background: "rgba(11, 19, 43, 0.75)",
+          maxWidth: 920,
+          background: "rgba(11, 14, 20, 0.78)",
           padding: "12px 24px",
-          borderRadius: 16,
-          backdropFilter: "blur(6px)",
-          border: "1px solid rgba(255, 255, 255, 0.1)",
+          borderRadius: 18,
+          backdropFilter: "blur(8px)",
+          border: "2px solid rgba(0, 240, 255, 0.25)",
+          boxShadow: "0 8px 32px rgba(0, 0, 0, 0.6)",
         }}
       >
         {visibleWords.map((w: any, idx: number) => {
@@ -91,7 +92,7 @@ export const AnimatedCaptions: React.FC<CaptionsProps> = ({
 
           let color = THEME.colors.white;
           if (highlighted) {
-            color = THEME.colors.warning;
+            color = THEME.colors.yellow;
           }
           if (isActive) {
             color = THEME.colors.cyan;
@@ -103,15 +104,15 @@ export const AnimatedCaptions: React.FC<CaptionsProps> = ({
               style={{
                 fontFamily: THEME.fonts.main,
                 fontWeight: 900,
-                fontSize: 44,
+                fontSize: 46,
                 lineHeight: 1.2,
                 color,
                 textTransform: "uppercase",
                 textShadow: isActive
-                  ? `0 0 16px ${THEME.colors.cyan}, 0 2px 4px #000`
+                  ? `0 0 18px ${THEME.colors.cyan}, 0 2px 4px #000`
                   : "0 2px 6px rgba(0,0,0,0.9)",
-                transform: isActive ? "scale(1.12)" : "scale(1)",
-                transition: "transform 0.08s ease, color 0.08s ease",
+                transform: isActive ? "scale(1.14)" : "scale(1)",
+                transition: "transform 0.06s ease, color 0.06s ease",
                 display: "inline-block",
               }}
             >

@@ -1,895 +1,926 @@
 {
   "s0": {
-    "text": "¿Por qué un ingeniero moderno destruiría un mundo mágico en menos de una semana?",
-    "seconds": 4.152,
+    "text": "Si tuviera el inventario de Minecraft en la vida real, no golpearía árboles. Lo usaría para salir de pobre antes de graduarme.",
+    "seconds": 7.066,
     "words": [
       {
-        "text": "Por",
+        "text": "Si",
         "start": 0,
         "end": 0.086
       },
       {
-        "text": "qué",
+        "text": "tuviera",
         "start": 0.086,
-        "end": 0.246
-      },
-      {
-        "text": "un",
-        "start": 0.246,
-        "end": 0.326
-      },
-      {
-        "text": "ingeniero",
-        "start": 0.326,
-        "end": 0.726
-      },
-      {
-        "text": "moderno",
-        "start": 0.726,
-        "end": 1.206
-      },
-      {
-        "text": "destruiría",
-        "start": 1.206,
-        "end": 1.686
-      },
-      {
-        "text": "un",
-        "start": 1.686,
-        "end": 1.766
-      },
-      {
-        "text": "mundo",
-        "start": 1.766,
-        "end": 2.086
-      },
-      {
-        "text": "mágico",
-        "start": 2.086,
-        "end": 2.726
-      },
-      {
-        "text": "en",
-        "start": 2.966,
-        "end": 3.126
-      },
-      {
-        "text": "menos",
-        "start": 3.126,
-        "end": 3.366
-      },
-      {
-        "text": "de",
-        "start": 3.366,
-        "end": 3.446
-      },
-      {
-        "text": "una",
-        "start": 3.446,
-        "end": 3.526
-      },
-      {
-        "text": "semana",
-        "start": 3.526,
-        "end": 4.006
-      }
-    ]
-  },
-  "s1": {
-    "text": "Imagina despertar en el cuerpo de un noble exiliado por tener poco maná.",
-    "seconds": 3.741,
-    "words": [
-      {
-        "text": "Imagina",
-        "start": 0,
-        "end": 0.404
-      },
-      {
-        "text": "despertar",
-        "start": 0.404,
-        "end": 0.884
-      },
-      {
-        "text": "en",
-        "start": 0.884,
-        "end": 0.964
+        "end": 0.406
       },
       {
         "text": "el",
-        "start": 0.964,
-        "end": 1.124
+        "start": 0.406,
+        "end": 0.486
       },
       {
-        "text": "cuerpo",
-        "start": 1.124,
-        "end": 1.604
+        "text": "inventario",
+        "start": 0.486,
+        "end": 0.966
       },
       {
         "text": "de",
-        "start": 1.684,
-        "end": 1.764
+        "start": 0.966,
+        "end": 1.046
       },
       {
-        "text": "un",
-        "start": 1.764,
-        "end": 1.844
+        "text": "Minecraft",
+        "start": 1.046,
+        "end": 1.446
       },
       {
-        "text": "noble",
-        "start": 1.844,
-        "end": 2.084
+        "text": "en",
+        "start": 1.526,
+        "end": 1.606
       },
       {
-        "text": "exiliado",
-        "start": 2.084,
-        "end": 2.564
+        "text": "la",
+        "start": 1.606,
+        "end": 1.686
       },
       {
-        "text": "por",
-        "start": 2.644,
-        "end": 2.804
-      },
-      {
-        "text": "tener",
-        "start": 2.804,
-        "end": 3.044
-      },
-      {
-        "text": "poco",
-        "start": 3.044,
-        "end": 3.284
-      },
-      {
-        "text": "maná",
-        "start": 3.284,
-        "end": 3.684
-      }
-    ]
-  },
-  "s2": {
-    "text": "En las novelas ligeras, los magos recitan versos interminables solo para lanzar una bola de fuego lenta y dispersa.",
-    "seconds": 7.054,
-    "words": [
-      {
-        "text": "En",
-        "start": 0,
-        "end": 0.086
-      },
-      {
-        "text": "las",
-        "start": 0.086,
-        "end": 0.246
-      },
-      {
-        "text": "novelas",
-        "start": 0.246,
-        "end": 0.646
-      },
-      {
-        "text": "ligeras",
-        "start": 0.646,
-        "end": 1.286
-      },
-      {
-        "text": "los",
+        "text": "vida",
         "start": 1.686,
-        "end": 1.846
+        "end": 1.926
       },
       {
-        "text": "magos",
-        "start": 1.846,
-        "end": 2.086
+        "text": "real",
+        "start": 1.926,
+        "end": 2.406
       },
       {
-        "text": "recitan",
-        "start": 2.086,
-        "end": 2.566
-      },
-      {
-        "text": "versos",
-        "start": 2.566,
+        "text": "no",
+        "start": 2.806,
         "end": 2.966
       },
       {
-        "text": "interminables",
+        "text": "golpearía",
         "start": 2.966,
-        "end": 3.766
+        "end": 3.446
       },
       {
-        "text": "solo",
-        "start": 3.926,
-        "end": 4.246
+        "text": "árboles",
+        "start": 3.446,
+        "end": 3.926
       },
       {
-        "text": "para",
-        "start": 4.246,
+        "text": "Lo",
+        "start": 4.326,
         "end": 4.406
       },
       {
-        "text": "lanzar",
+        "text": "usaría",
         "start": 4.406,
-        "end": 4.806
+        "end": 4.726
       },
       {
-        "text": "una",
-        "start": 4.966,
+        "text": "para",
+        "start": 4.726,
+        "end": 4.886
+      },
+      {
+        "text": "salir",
+        "start": 4.886,
         "end": 5.206
       },
       {
-        "text": "bola",
-        "start": 5.206,
-        "end": 5.446
-      },
-      {
         "text": "de",
-        "start": 5.446,
-        "end": 5.526
+        "start": 5.206,
+        "end": 5.286
       },
       {
-        "text": "fuego",
-        "start": 5.526,
-        "end": 5.846
+        "text": "pobre",
+        "start": 5.286,
+        "end": 5.766
       },
       {
-        "text": "lenta",
-        "start": 5.846,
+        "text": "antes",
+        "start": 6.006,
         "end": 6.246
       },
       {
-        "text": "y",
-        "start": 6.326,
-        "end": 6.406
+        "text": "de",
+        "start": 6.246,
+        "end": 6.326
       },
       {
-        "text": "dispersa",
-        "start": 6.406,
+        "text": "graduarme",
+        "start": 6.326,
         "end": 6.966
       }
     ]
   },
-  "s3": {
-    "text": "Para un mago, el fuego es un misterio místico. Para un ingeniero, es simple combustión incompleta desperdiciando el noventa por ciento de la energía.",
-    "seconds": 8.232,
+  "s1": {
+    "text": "Treinta y seis casillas invisibles. En cada una caben sesenta y cuatro objetos idénticos... y para mi cuerpo pesan cero.",
+    "seconds": 7.354,
     "words": [
       {
-        "text": "Para",
+        "text": "Treinta",
         "start": 0,
-        "end": 0.086
+        "end": 0.247
       },
       {
-        "text": "un",
-        "start": 0.086,
-        "end": 0.246
+        "text": "y",
+        "start": 0.247,
+        "end": 0.327
       },
       {
-        "text": "mago",
-        "start": 0.246,
-        "end": 0.806
+        "text": "seis",
+        "start": 0.327,
+        "end": 0.567
       },
       {
-        "text": "el",
-        "start": 0.966,
-        "end": 1.126
+        "text": "casillas",
+        "start": 0.567,
+        "end": 0.967
       },
       {
-        "text": "fuego",
-        "start": 1.126,
-        "end": 1.366
+        "text": "invisibles",
+        "start": 0.967,
+        "end": 1.687
       },
       {
-        "text": "es",
-        "start": 1.366,
-        "end": 1.446
+        "text": "En",
+        "start": 2.247,
+        "end": 2.407
       },
       {
-        "text": "un",
-        "start": 1.446,
-        "end": 1.526
+        "text": "cada",
+        "start": 2.407,
+        "end": 2.647
       },
       {
-        "text": "misterio",
-        "start": 1.526,
-        "end": 1.926
+        "text": "una",
+        "start": 2.647,
+        "end": 2.887
       },
       {
-        "text": "místico",
-        "start": 1.926,
-        "end": 2.486
+        "text": "caben",
+        "start": 2.887,
+        "end": 3.367
       },
       {
-        "text": "Para",
-        "start": 3.046,
-        "end": 3.206
+        "text": "sesenta",
+        "start": 3.447,
+        "end": 3.847
       },
       {
-        "text": "un",
-        "start": 3.206,
-        "end": 3.286
+        "text": "y",
+        "start": 3.847,
+        "end": 3.927
       },
       {
-        "text": "ingeniero",
-        "start": 3.286,
-        "end": 3.926
+        "text": "cuatro",
+        "start": 3.927,
+        "end": 4.247
       },
       {
-        "text": "es",
-        "start": 4.246,
-        "end": 4.326
+        "text": "objetos",
+        "start": 4.247,
+        "end": 4.727
       },
       {
-        "text": "simple",
-        "start": 4.326,
-        "end": 4.646
+        "text": "idénticos",
+        "start": 4.727,
+        "end": 5.367
       },
       {
-        "text": "combustión",
-        "start": 4.646,
-        "end": 5.126
+        "text": "y",
+        "start": 5.687,
+        "end": 5.847
       },
       {
-        "text": "incompleta",
-        "start": 5.126,
-        "end": 5.846
+        "text": "para",
+        "start": 5.847,
+        "end": 6.007
       },
       {
-        "text": "desperdiciando",
-        "start": 5.926,
-        "end": 6.566
+        "text": "mi",
+        "start": 6.007,
+        "end": 6.087
       },
       {
-        "text": "el",
-        "start": 6.566,
-        "end": 6.646
+        "text": "cuerpo",
+        "start": 6.087,
+        "end": 6.487
       },
       {
-        "text": "noventa",
-        "start": 6.646,
-        "end": 7.046
+        "text": "pesan",
+        "start": 6.487,
+        "end": 6.807
       },
       {
-        "text": "por",
-        "start": 7.046,
-        "end": 7.126
+        "text": "cero",
+        "start": 6.807,
+        "end": 7.287
+      }
+    ]
+  },
+  "s2": {
+    "text": "¿Mudanzas? ¿Fletes? Llevo toneladas sin cansarme. Empecé haciendo mandados para juntar algo de capital...",
+    "seconds": 6.989,
+    "words": [
+      {
+        "text": "Mudanzas",
+        "start": 0,
+        "end": 0.644
       },
       {
-        "text": "ciento",
-        "start": 7.126,
-        "end": 7.526
+        "text": "Fletes",
+        "start": 0.884,
+        "end": 1.444
+      },
+      {
+        "text": "Llevo",
+        "start": 2.084,
+        "end": 2.244
+      },
+      {
+        "text": "toneladas",
+        "start": 2.244,
+        "end": 2.884
+      },
+      {
+        "text": "sin",
+        "start": 2.884,
+        "end": 2.964
+      },
+      {
+        "text": "cansarme",
+        "start": 2.964,
+        "end": 3.524
+      },
+      {
+        "text": "Empecé",
+        "start": 4.404,
+        "end": 4.804
+      },
+      {
+        "text": "haciendo",
+        "start": 4.804,
+        "end": 5.044
+      },
+      {
+        "text": "mandados",
+        "start": 5.044,
+        "end": 5.604
+      },
+      {
+        "text": "para",
+        "start": 5.604,
+        "end": 5.764
+      },
+      {
+        "text": "juntar",
+        "start": 5.764,
+        "end": 6.084
+      },
+      {
+        "text": "algo",
+        "start": 6.084,
+        "end": 6.324
       },
       {
         "text": "de",
-        "start": 7.526,
-        "end": 7.526
+        "start": 6.324,
+        "end": 6.404
       },
       {
-        "text": "la",
-        "start": 7.526,
-        "end": 7.686
+        "text": "capital",
+        "start": 6.404,
+        "end": 6.884
+      }
+    ]
+  },
+  "s3": {
+    "text": "...hasta que compré un vuelo ultrabarato a China, sin pagar una sola maleta.",
+    "seconds": 3.966,
+    "words": [
+      {
+        "text": "hasta",
+        "start": 0,
+        "end": 0.32
       },
       {
-        "text": "energía",
-        "start": 7.686,
-        "end": 8.086
+        "text": "que",
+        "start": 0.32,
+        "end": 0.4
+      },
+      {
+        "text": "compré",
+        "start": 0.4,
+        "end": 0.8
+      },
+      {
+        "text": "un",
+        "start": 0.8,
+        "end": 0.96
+      },
+      {
+        "text": "vuelo",
+        "start": 0.96,
+        "end": 1.12
+      },
+      {
+        "text": "ultrabarato",
+        "start": 1.12,
+        "end": 1.84
+      },
+      {
+        "text": "a",
+        "start": 1.84,
+        "end": 1.92
+      },
+      {
+        "text": "China",
+        "start": 1.92,
+        "end": 2.4
+      },
+      {
+        "text": "sin",
+        "start": 2.4,
+        "end": 2.72
+      },
+      {
+        "text": "pagar",
+        "start": 2.72,
+        "end": 2.96
+      },
+      {
+        "text": "una",
+        "start": 2.96,
+        "end": 3.12
+      },
+      {
+        "text": "sola",
+        "start": 3.12,
+        "end": 3.28
+      },
+      {
+        "text": "maleta",
+        "start": 3.28,
+        "end": 3.84
       }
     ]
   },
   "s4": {
-    "text": "¿Poca reserva mágica? Aplica termodinámica: no creas fuego, aíslas oxígeno atmosférico y lo comprimes a escala microscópica hasta generar un plasma azul hiperbárico.",
-    "seconds": 10.209,
+    "text": "En Shenzhen la tecnología cuesta centavos. El negocio no es fabricar, es ahorrarte el flete. Con un toque, todo entra a mi inventario.",
+    "seconds": 8.408,
     "words": [
       {
-        "text": "Poca",
+        "text": "En",
         "start": 0,
-        "end": 0.162
+        "end": 0.084
       },
       {
-        "text": "reserva",
-        "start": 0.162,
-        "end": 0.482
+        "text": "Shenzhen",
+        "start": 0.084,
+        "end": 0.564
       },
       {
-        "text": "mágica",
-        "start": 0.482,
-        "end": 1.042
+        "text": "la",
+        "start": 0.564,
+        "end": 0.644
       },
       {
-        "text": "Aplica",
-        "start": 1.442,
-        "end": 1.922
+        "text": "tecnología",
+        "start": 0.644,
+        "end": 1.204
       },
       {
-        "text": "termodinámica",
-        "start": 1.922,
-        "end": 2.802
+        "text": "cuesta",
+        "start": 1.204,
+        "end": 1.444
+      },
+      {
+        "text": "centavos",
+        "start": 1.444,
+        "end": 2.084
+      },
+      {
+        "text": "El",
+        "start": 2.564,
+        "end": 2.724
+      },
+      {
+        "text": "negocio",
+        "start": 2.724,
+        "end": 3.204
       },
       {
         "text": "no",
-        "start": 3.202,
-        "end": 3.362
+        "start": 3.204,
+        "end": 3.284
       },
       {
-        "text": "creas",
-        "start": 3.362,
-        "end": 3.522
+        "text": "es",
+        "start": 3.284,
+        "end": 3.444
       },
       {
-        "text": "fuego",
-        "start": 3.522,
-        "end": 4.002
+        "text": "fabricar",
+        "start": 3.444,
+        "end": 4.004
       },
       {
-        "text": "aíslas",
-        "start": 4.162,
-        "end": 4.562
+        "text": "es",
+        "start": 4.404,
+        "end": 4.564
       },
       {
-        "text": "oxígeno",
-        "start": 4.562,
-        "end": 5.042
+        "text": "ahorrarte",
+        "start": 4.564,
+        "end": 4.964
       },
       {
-        "text": "atmosférico",
-        "start": 5.042,
-        "end": 5.762
+        "text": "el",
+        "start": 5.044,
+        "end": 5.124
       },
       {
-        "text": "y",
-        "start": 6.082,
-        "end": 6.162
+        "text": "flete",
+        "start": 5.124,
+        "end": 5.604
       },
       {
-        "text": "lo",
-        "start": 6.162,
-        "end": 6.242
-      },
-      {
-        "text": "comprimes",
-        "start": 6.242,
-        "end": 6.802
-      },
-      {
-        "text": "a",
-        "start": 6.802,
-        "end": 6.802
-      },
-      {
-        "text": "escala",
-        "start": 6.802,
-        "end": 7.122
-      },
-      {
-        "text": "microscópica",
-        "start": 7.122,
-        "end": 7.842
-      },
-      {
-        "text": "hasta",
-        "start": 8.082,
-        "end": 8.322
-      },
-      {
-        "text": "generar",
-        "start": 8.322,
-        "end": 8.722
+        "text": "Con",
+        "start": 6.244,
+        "end": 6.404
       },
       {
         "text": "un",
-        "start": 8.722,
-        "end": 8.802
+        "start": 6.404,
+        "end": 6.484
       },
       {
-        "text": "plasma",
-        "start": 8.802,
-        "end": 9.202
+        "text": "toque",
+        "start": 6.484,
+        "end": 7.044
       },
       {
-        "text": "azul",
-        "start": 9.202,
-        "end": 9.442
+        "text": "todo",
+        "start": 7.124,
+        "end": 7.364
       },
       {
-        "text": "hiperbárico",
-        "start": 9.442,
-        "end": 10.162
+        "text": "entra",
+        "start": 7.364,
+        "end": 7.604
+      },
+      {
+        "text": "a",
+        "start": 7.604,
+        "end": 7.604
+      },
+      {
+        "text": "mi",
+        "start": 7.604,
+        "end": 7.684
+      },
+      {
+        "text": "inventario",
+        "start": 7.684,
+        "end": 8.324
       }
     ]
   },
   "s5": {
-    "text": "¿Magia de tierra? Olvida lanzar piedras. Si usas electromagnetismo para acelerar una simple moneda en un tubo de vacío, creaste un cañón de riel hipersónico.",
-    "seconds": 9.874,
+    "text": "En el aeropuerto todos sufren con la aduana. ¿Y yo? Paso silbando, con las manos en los bolsillos y un juguito...",
+    "seconds": 6.956,
     "words": [
       {
-        "text": "Magia",
+        "text": "En",
         "start": 0,
-        "end": 0.236
+        "end": 0.084
       },
       {
-        "text": "de",
-        "start": 0.236,
-        "end": 0.316
+        "text": "el",
+        "start": 0.084,
+        "end": 0.164
       },
       {
-        "text": "tierra",
-        "start": 0.316,
-        "end": 0.796
+        "text": "aeropuerto",
+        "start": 0.244,
+        "end": 0.804
       },
       {
-        "text": "Olvida",
-        "start": 1.356,
-        "end": 1.676
+        "text": "todos",
+        "start": 0.804,
+        "end": 1.044
       },
       {
-        "text": "lanzar",
-        "start": 1.756,
-        "end": 2.076
+        "text": "sufren",
+        "start": 1.044,
+        "end": 1.364
       },
       {
-        "text": "piedras",
-        "start": 2.076,
-        "end": 2.716
+        "text": "con",
+        "start": 1.364,
+        "end": 1.524
       },
       {
-        "text": "Si",
-        "start": 3.516,
-        "end": 3.676
+        "text": "la",
+        "start": 1.524,
+        "end": 1.604
       },
       {
-        "text": "usas",
-        "start": 3.676,
-        "end": 3.996
+        "text": "aduana",
+        "start": 1.604,
+        "end": 2.004
       },
       {
-        "text": "electromagnetismo",
-        "start": 3.996,
-        "end": 4.876
+        "text": "Y",
+        "start": 2.404,
+        "end": 2.484
       },
       {
-        "text": "para",
-        "start": 4.876,
-        "end": 5.116
+        "text": "yo",
+        "start": 2.484,
+        "end": 2.884
       },
       {
-        "text": "acelerar",
-        "start": 5.116,
-        "end": 5.516
+        "text": "Paso",
+        "start": 3.364,
+        "end": 3.604
       },
       {
-        "text": "una",
-        "start": 5.516,
-        "end": 5.596
+        "text": "silbando",
+        "start": 3.604,
+        "end": 4.324
       },
       {
-        "text": "simple",
-        "start": 5.596,
-        "end": 5.916
+        "text": "con",
+        "start": 4.564,
+        "end": 4.724
       },
       {
-        "text": "moneda",
-        "start": 5.916,
-        "end": 6.316
+        "text": "las",
+        "start": 4.724,
+        "end": 4.884
+      },
+      {
+        "text": "manos",
+        "start": 4.884,
+        "end": 5.204
       },
       {
         "text": "en",
-        "start": 6.316,
-        "end": 6.396
+        "start": 5.204,
+        "end": 5.284
+      },
+      {
+        "text": "los",
+        "start": 5.284,
+        "end": 5.364
+      },
+      {
+        "text": "bolsillos",
+        "start": 5.364,
+        "end": 6.004
+      },
+      {
+        "text": "y",
+        "start": 6.084,
+        "end": 6.164
       },
       {
         "text": "un",
-        "start": 6.396,
-        "end": 6.476
+        "start": 6.164,
+        "end": 6.244
       },
       {
-        "text": "tubo",
-        "start": 6.476,
-        "end": 6.716
-      },
-      {
-        "text": "de",
-        "start": 6.716,
-        "end": 6.796
-      },
-      {
-        "text": "vacío",
-        "start": 6.796,
-        "end": 7.356
-      },
-      {
-        "text": "creaste",
-        "start": 7.756,
-        "end": 8.156
-      },
-      {
-        "text": "un",
-        "start": 8.156,
-        "end": 8.236
-      },
-      {
-        "text": "cañón",
-        "start": 8.236,
-        "end": 8.636
-      },
-      {
-        "text": "de",
-        "start": 8.636,
-        "end": 8.716
-      },
-      {
-        "text": "riel",
-        "start": 8.716,
-        "end": 8.956
-      },
-      {
-        "text": "hipersónico",
-        "start": 8.956,
-        "end": 9.836
+        "text": "juguito",
+        "start": 6.244,
+        "end": 6.884
       }
     ]
   },
   "s6": {
-    "text": "Y al combinar electrólisis con ignición, detonas una explosión termobárica masiva sin gastar maná extra.",
-    "seconds": 5.527,
+    "text": "...mientras llevo más de dos mil productos de última generación flotando en mi dimensión privada.",
+    "seconds": 4.687,
     "words": [
       {
-        "text": "Y",
+        "text": "mientras",
         "start": 0,
-        "end": 0.086
+        "end": 0.275
       },
       {
-        "text": "al",
-        "start": 0.086,
-        "end": 0.166
+        "text": "llevo",
+        "start": 0.275,
+        "end": 0.515
       },
       {
-        "text": "combinar",
-        "start": 0.166,
-        "end": 0.646
+        "text": "más",
+        "start": 0.515,
+        "end": 0.755
       },
       {
-        "text": "electrólisis",
-        "start": 0.646,
-        "end": 1.286
+        "text": "de",
+        "start": 0.755,
+        "end": 0.835
       },
       {
-        "text": "con",
-        "start": 1.286,
-        "end": 1.446
+        "text": "dos",
+        "start": 0.835,
+        "end": 0.995
       },
       {
-        "text": "ignición",
-        "start": 1.446,
-        "end": 2.086
+        "text": "mil",
+        "start": 0.995,
+        "end": 1.155
       },
       {
-        "text": "detonas",
-        "start": 2.166,
-        "end": 2.646
+        "text": "productos",
+        "start": 1.155,
+        "end": 1.635
       },
       {
-        "text": "una",
-        "start": 2.646,
-        "end": 2.726
+        "text": "de",
+        "start": 1.715,
+        "end": 1.715
       },
       {
-        "text": "explosión",
-        "start": 2.726,
-        "end": 3.206
+        "text": "última",
+        "start": 1.715,
+        "end": 2.035
       },
       {
-        "text": "termobárica",
-        "start": 3.206,
-        "end": 3.846
+        "text": "generación",
+        "start": 2.035,
+        "end": 2.755
       },
       {
-        "text": "masiva",
-        "start": 3.846,
-        "end": 4.246
+        "text": "flotando",
+        "start": 3.075,
+        "end": 3.475
       },
       {
-        "text": "sin",
-        "start": 4.246,
-        "end": 4.486
+        "text": "en",
+        "start": 3.475,
+        "end": 3.555
       },
       {
-        "text": "gastar",
-        "start": 4.486,
-        "end": 4.726
+        "text": "mi",
+        "start": 3.555,
+        "end": 3.635
       },
       {
-        "text": "maná",
-        "start": 4.726,
-        "end": 4.966
+        "text": "dimensión",
+        "start": 3.635,
+        "end": 4.035
       },
       {
-        "text": "extra",
-        "start": 4.966,
-        "end": 5.446
+        "text": "privada",
+        "start": 4.035,
+        "end": 4.595
       }
     ]
   },
   "s7": {
-    "text": "La magia tradicional depende de la fe. La ciencia le da a esa imaginación las leyes absolutas del cosmos.",
-    "seconds": 5.794,
+    "text": "Vendo todo en mi campus a mitad de precio y aún así gano el triple.",
+    "seconds": 4.073,
     "words": [
       {
-        "text": "La",
+        "text": "Vendo",
         "start": 0,
-        "end": 0.086
+        "end": 0.248
       },
       {
-        "text": "magia",
-        "start": 0.086,
-        "end": 0.326
+        "text": "todo",
+        "start": 0.248,
+        "end": 0.488
       },
       {
-        "text": "tradicional",
-        "start": 0.326,
-        "end": 0.966
+        "text": "en",
+        "start": 0.488,
+        "end": 0.568
       },
       {
-        "text": "depende",
-        "start": 0.966,
-        "end": 1.366
+        "text": "mi",
+        "start": 0.568,
+        "end": 0.648
       },
       {
-        "text": "de",
-        "start": 1.366,
-        "end": 1.446
-      },
-      {
-        "text": "la",
-        "start": 1.446,
-        "end": 1.606
-      },
-      {
-        "text": "fe",
-        "start": 1.606,
-        "end": 1.926
-      },
-      {
-        "text": "La",
-        "start": 2.566,
-        "end": 2.646
-      },
-      {
-        "text": "ciencia",
-        "start": 2.646,
-        "end": 3.046
-      },
-      {
-        "text": "le",
-        "start": 3.046,
-        "end": 3.206
-      },
-      {
-        "text": "da",
-        "start": 3.206,
-        "end": 3.366
+        "text": "campus",
+        "start": 0.648,
+        "end": 1.208
       },
       {
         "text": "a",
-        "start": 3.366,
-        "end": 3.366
+        "start": 1.448,
+        "end": 1.528
       },
       {
-        "text": "esa",
-        "start": 3.366,
-        "end": 3.526
+        "text": "mitad",
+        "start": 1.528,
+        "end": 1.768
       },
       {
-        "text": "imaginación",
-        "start": 3.526,
-        "end": 4.086
+        "text": "de",
+        "start": 1.768,
+        "end": 1.928
       },
       {
-        "text": "las",
-        "start": 4.086,
-        "end": 4.166
+        "text": "precio",
+        "start": 1.928,
+        "end": 2.408
       },
       {
-        "text": "leyes",
-        "start": 4.166,
-        "end": 4.486
+        "text": "y",
+        "start": 2.648,
+        "end": 2.728
       },
       {
-        "text": "absolutas",
-        "start": 4.486,
-        "end": 5.046
+        "text": "aún",
+        "start": 2.728,
+        "end": 2.888
       },
       {
-        "text": "del",
-        "start": 5.046,
-        "end": 5.206
+        "text": "así",
+        "start": 2.888,
+        "end": 3.208
       },
       {
-        "text": "cosmos",
-        "start": 5.206,
-        "end": 5.686
+        "text": "gano",
+        "start": 3.208,
+        "end": 3.448
+      },
+      {
+        "text": "el",
+        "start": 3.448,
+        "end": 3.528
+      },
+      {
+        "text": "triple",
+        "start": 3.528,
+        "end": 4.008
       }
     ]
   },
   "s8": {
-    "text": "El conocimiento no es poder, es un código de trucos. ¿Qué principio físico aplicarías tú primero?",
-    "seconds": 5.369,
+    "text": "Nadie sabe cómo consigo stock tan rápido. En semanas pasé del suelo a un setup de ensueño.",
+    "seconds": 5.166,
     "words": [
       {
-        "text": "El",
+        "text": "Nadie",
         "start": 0,
-        "end": 0.081
+        "end": 0.166
       },
       {
-        "text": "conocimiento",
-        "start": 0.081,
-        "end": 0.641
+        "text": "sabe",
+        "start": 0.166,
+        "end": 0.406
       },
       {
-        "text": "no",
-        "start": 0.721,
-        "end": 0.801
+        "text": "cómo",
+        "start": 0.406,
+        "end": 0.646
       },
       {
-        "text": "es",
-        "start": 0.801,
-        "end": 0.881
+        "text": "consigo",
+        "start": 0.646,
+        "end": 1.126
       },
       {
-        "text": "poder",
-        "start": 0.881,
-        "end": 1.281
+        "text": "stock",
+        "start": 1.126,
+        "end": 1.526
       },
       {
-        "text": "es",
-        "start": 1.681,
-        "end": 1.761
+        "text": "tan",
+        "start": 1.526,
+        "end": 1.686
+      },
+      {
+        "text": "rápido",
+        "start": 1.686,
+        "end": 2.246
+      },
+      {
+        "text": "En",
+        "start": 2.726,
+        "end": 2.886
+      },
+      {
+        "text": "semanas",
+        "start": 2.886,
+        "end": 3.366
+      },
+      {
+        "text": "pasé",
+        "start": 3.366,
+        "end": 3.606
+      },
+      {
+        "text": "del",
+        "start": 3.606,
+        "end": 3.686
+      },
+      {
+        "text": "suelo",
+        "start": 3.686,
+        "end": 4.006
+      },
+      {
+        "text": "a",
+        "start": 4.006,
+        "end": 4.006
       },
       {
         "text": "un",
-        "start": 1.761,
-        "end": 1.921
+        "start": 4.006,
+        "end": 4.166
       },
       {
-        "text": "código",
-        "start": 1.921,
-        "end": 2.241
+        "text": "setup",
+        "start": 4.166,
+        "end": 4.486
       },
       {
         "text": "de",
-        "start": 2.241,
-        "end": 2.321
+        "start": 4.486,
+        "end": 4.566
       },
       {
-        "text": "trucos",
-        "start": 2.321,
-        "end": 2.881
-      },
+        "text": "ensueño",
+        "start": 4.566,
+        "end": 5.126
+      }
+    ]
+  },
+  "s9": {
+    "text": "Ahora... ¿tú qué guardarías primero? Porque si el inventario de Minecraft fuera real...",
+    "seconds": 5.249,
+    "words": [
       {
-        "text": "Qué",
-        "start": 3.201,
-        "end": 3.361
-      },
-      {
-        "text": "principio",
-        "start": 3.361,
-        "end": 3.841
-      },
-      {
-        "text": "físico",
-        "start": 3.841,
-        "end": 4.161
-      },
-      {
-        "text": "aplicarías",
-        "start": 4.161,
-        "end": 4.641
+        "text": "Ahora",
+        "start": 0,
+        "end": 0.564
       },
       {
         "text": "tú",
-        "start": 4.641,
-        "end": 4.801
+        "start": 0.724,
+        "end": 0.804
+      },
+      {
+        "text": "qué",
+        "start": 0.804,
+        "end": 0.964
+      },
+      {
+        "text": "guardarías",
+        "start": 0.964,
+        "end": 1.444
       },
       {
         "text": "primero",
-        "start": 4.801,
-        "end": 5.281
+        "start": 1.444,
+        "end": 2.004
+      },
+      {
+        "text": "Porque",
+        "start": 2.324,
+        "end": 2.564
+      },
+      {
+        "text": "si",
+        "start": 2.564,
+        "end": 2.724
+      },
+      {
+        "text": "el",
+        "start": 2.724,
+        "end": 2.804
+      },
+      {
+        "text": "inventario",
+        "start": 2.804,
+        "end": 3.284
+      },
+      {
+        "text": "de",
+        "start": 3.284,
+        "end": 3.364
+      },
+      {
+        "text": "Minecraft",
+        "start": 3.364,
+        "end": 3.844
+      },
+      {
+        "text": "fuera",
+        "start": 4.404,
+        "end": 4.644
+      },
+      {
+        "text": "real",
+        "start": 4.644,
+        "end": 5.124
       }
     ]
   }

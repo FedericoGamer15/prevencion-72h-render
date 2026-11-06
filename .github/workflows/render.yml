@@ -8,8 +8,8 @@ on:
         default: "10"
 
 env:
-  COMP: CienciaVsMagia
-  TOTAL_FRAMES: "3600"
+  COMP: MinecraftInventario
+  TOTAL_FRAMES: "3593"
 
 jobs:
   plan:
@@ -78,10 +78,10 @@ jobs:
           ffmpeg -y -f concat -safe 0 -i list.txt -c copy out/video-silent.mp4
           npx remotion render ${{ env.COMP }} out/audio.wav --codec=wav --gl=swangle
           ffmpeg -y -i out/video-silent.mp4 -i out/audio.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 320k -shortest out/raw.mp4
-          python scripts/loudnorm.py out/raw.mp4 out/ciencia-vs-magia.mp4
-          ffprobe -v error -show_entries stream=codec_name,width,height,nb_frames -show_entries format=duration out/ciencia-vs-magia.mp4
+          python scripts/loudnorm.py out/raw.mp4 out/minecraft-inventario.mp4
+          ffprobe -v error -show_entries stream=codec_name,width,height,nb_frames -show_entries format=duration out/minecraft-inventario.mp4
       - uses: actions/upload-artifact@v4
         with:
-          name: ciencia-vs-magia-final
-          path: out/ciencia-vs-magia.mp4
+          name: minecraft-inventario-final
+          path: out/minecraft-inventario.mp4
           retention-days: 7

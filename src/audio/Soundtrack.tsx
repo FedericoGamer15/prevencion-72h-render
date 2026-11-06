@@ -2,7 +2,7 @@ import React from "react";
 import { Audio, Sequence, staticFile } from "remotion";
 
 interface SoundtrackProps {
-  sceneOffsets: number[]; // Fotogramas globales de inicio de s0..s8
+  sceneOffsets: number[]; // Fotogramas globales de inicio de s0..s9
 }
 
 export const Soundtrack: React.FC<SoundtrackProps> = ({ sceneOffsets }) => {
@@ -11,10 +11,10 @@ export const Soundtrack: React.FC<SoundtrackProps> = ({ sceneOffsets }) => {
       {/* 1. Música de fondo cinemática con ducking bajo la locución */}
       <Audio
         src={staticFile("audio/music.wav")}
-        volume={0.18}
+        volume={0.16}
       />
 
-      {/* 2. Locuciones TTS sincronizadas s0 a s8 */}
+      {/* 2. Locuciones TTS sincronizadas s0 a s9 */}
       {sceneOffsets.map((offset, idx) => (
         <Sequence
           key={`vo-s${idx}`}
